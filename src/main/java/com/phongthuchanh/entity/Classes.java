@@ -33,10 +33,10 @@ public class Classes {
     private Integer totalPractising;
 
     @ManyToOne
-    @JoinColumn(name = "teacher_id")
+//    @JoinColumn(name = "teacher_id")
     private User teacher;
 
-    @Column(name = "teacher_id")
+    @Column(name = "teacher_id", updatable = false, insertable = false)
     private Long teacherId;
 
 

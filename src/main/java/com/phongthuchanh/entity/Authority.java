@@ -2,9 +2,6 @@ package com.phongthuchanh.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -18,7 +15,7 @@ import java.util.Objects;
 @Table(name = "authority")
 @Getter
 @Setter
-public class Authority  implements Serializable {
+public class Authority implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @NotNull

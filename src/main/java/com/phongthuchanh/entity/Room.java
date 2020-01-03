@@ -2,9 +2,6 @@ package com.phongthuchanh.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
-
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
